@@ -1,0 +1,6 @@
+--tailwand 
+1-color
+bg-inherit to inherit from parent
+bg-current the color default (black)
+
+

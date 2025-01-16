@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+hr {
+	@apply border-8 border-gray-800 border-solid;
+}
+/* .test {
+	@apply border-8 border-gray-800 border-solid;
+}
+.btn {
+	@apply;
+} */
