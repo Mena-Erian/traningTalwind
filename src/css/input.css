@@ -11,3 +11,34 @@ hr {
 .btn {
 	@apply;
 } */
+@layer components {
+	.btn-danger {
+		@apply bg-red-500 text-white border-white border rounded-lg px-5 py-2 hover:text-red-500 hover:bg-slate-200 transition-all;
+	}
+	/* CHECKBOX TOGGLE SWITCH */
+	/* @apply rules for documentation, these do not work as inline style */
+	.toggle-checkbox:checked {
+		@apply: right-0 border-green-400;
+		right: 0;
+		border-color: #68d391;
+	}
+	.toggle-checkbox:checked + .toggle-label {
+		@apply: bg-green-400;
+		background-color: #68d391;
+	}
+	.card {
+		@apply bg-slate-50 text-black p-5 rounded;
+	}
+}
+.afterh2 {
+	@apply: bg-black h-[3px] absolute top-0 left-0 w-[10px] text-black;
+}
+/* .card {
+	@apply bg-white rounded py-10 px-8 border relative;
+} */
+
+/* @media screen(sm) {
+	.card {
+		background-color: red;
+	}
+} */
