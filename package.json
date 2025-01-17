@@ -13,8 +13,8 @@
 	"main": "tailwind.config.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
-		"build-m": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css -m"
+		"start": "npx tailwindcss -i ./docs/css/input.css -o ./docs/css/output.css --watch",
+		"build-m": "npx tailwindcss -i ./docs/css/input.css -o ./docs/css/output.css -m"
 	},
 	"author": "",
 	"license": "ISC",
